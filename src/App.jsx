@@ -43,7 +43,7 @@ const App = () => {
   //VERIFICAR ESTADO DE SESION
   //Este useEffect se encarga de verificar constantemente el estado de la sesion, junto con la cookie que resguarda al token, ya que esta llamndo a la funcion estadoSesion, esto es  para asegurar que el sistema sea accesible siempre y cuando haya una sesion valida, verificando esto cada segundo.
   useEffect(() => {
-    estadoSesion();
+    estadoSesion(); 
     const handleEstado = () => {
       estadoSesion();
     };
