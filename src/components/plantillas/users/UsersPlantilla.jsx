@@ -15,7 +15,7 @@ import { confirmAlert } from "react-confirm-alert";
 import { toast } from "react-toastify";
 import { Switch } from "@nextui-org/react";
 
-//Importaciones para el modal.
+//Importaciones para el modal....
 import { IoPersonAddOutline } from "react-icons/io5" ;
 import SelectAtomo from "../../atoms/Select";
 import SelectAtomoActualizar from "../../atoms/SelectActualizar";
